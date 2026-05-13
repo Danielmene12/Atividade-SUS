@@ -1,0 +1,49 @@
+<div class="max-w-lg">
+  <div class="flex items-center justify-between mb-6">
+    <div>
+      <h2 class="section-title">Minhas Vacinas</h2>
+      <p class="section-sub">Acompanhe seu histórico e próximas doses</p>
+    </div>
+    <div class="icon-square icon-lg bg-ic-green">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" style="width:2rem">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 01-1.043 3.296 3.745 3.745 0 01-3.296 1.043A3.745 3.745 0 0112 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 01-3.296-1.043 3.745 3.745 0 01-1.043-3.296A3.745 3.745 0 013 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 011.043-3.296 3.746 3.746 0 013.296-1.043A3.746 3.746 0 0112 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 013.296 1.043 3.746 3.746 0 011.043 3.296A3.745 3.745 0 0121 12z"/>
+      </svg>
+    </div>
+  </div>
+
+  <div class="space-y">
+    <div class="card border-l-green">
+      <div class="card-body flex items-center justify-between">
+        <div class="flex items-center gap-4">
+          <div class="icon-circle icon-md ic-green">💉</div>
+          <div>
+            <h3 class="font-800 text-gray-8">Influenza (Gripe)</h3>
+            <p class="text-xs text-gray-5">Dose Única • Aplicada em 15/04/2024</p>
+          </div>
+        </div>
+        <span class="badge badge-green">✓ Em dia</span>
+      </div>
+    </div>
+
+    <div class="card border-l-yellow">
+      <div class="card-body">
+        <div class="flex items-center justify-between mb-4">
+          <div class="flex items-center gap-4">
+            <div class="icon-circle icon-md ic-orange">⏳</div>
+            <div>
+              <h3 class="font-800 text-gray-8">Reforço COVID-19</h3>
+              <p class="text-xs text-gray-5">Bivalente • Recomendado</p>
+            </div>
+          </div>
+          <span class="badge badge-gray">Pendente</span>
+        </div>
+        <button class="btn btn-primary w-full" onclick="goDetalhes('vacinas')">Agendar Agora</button>
+      </div>
+    </div>
+
+    <div class="alert alert-blue mt-6 flex items-center gap-3">
+      <span>📄</span>
+      <p>Seu <strong>Certificado Nacional de Vacinação</strong> está disponível para download em formato PDF.</p>
+    </div>
+  </div>
+</div>
